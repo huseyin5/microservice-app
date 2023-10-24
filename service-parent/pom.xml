@@ -11,6 +11,16 @@
     </parent>
 
     <artifactId>service-parent</artifactId>
+    <packaging>pom</packaging>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <version>1.4.7.RELEASE</version>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
