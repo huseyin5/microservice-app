@@ -1,11 +1,6 @@
-server:
-  port: 8761
-
 spring:
-  config:
-    import: configserver:http://localhost:8888
   application:
-    name: eureka-server
+    name: config-server
   cloud:
     config:
       profile: native
