@@ -1,11 +1,4 @@
 spring:
-  cassandra:
-    schema-action: CREATE_IF_NOT_EXISTS
-    request:
-      timeout: 10s
-    connection:
-      connect-timeout: 10s
-        init-query-timeout: 10s
   application:
     name: account-service
 
@@ -13,3 +6,6 @@ spring:
     config:
       profile: native
       uri: http://localhost:8888
+
+  data:
+    cassandra:
