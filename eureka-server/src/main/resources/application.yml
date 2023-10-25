@@ -1,6 +1,7 @@
 spring:
   application:
-    name: config-server
+    name: eureka-server
+
   cloud:
     config:
       profile: native
